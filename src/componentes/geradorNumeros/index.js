@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function GeradorDeNumeros() {
@@ -12,17 +13,20 @@ export default function GeradorDeNumeros() {
   }
 
   return(
-    <div className='conteudo-centralizado'>
-      <h3>Número aleatório</h3>
-      <h1>{numeroAleatorio}</h1>
-      <div className='area-botao'>
-        <label>
-          Click no botão abaixo para gerar um número aleatóiro:
-        </label>
+    <div className='display'>
+      <div className='conteudo-centralizado'>
+        <h3>Número aleatório</h3>
+        <h1>{numeroAleatorio}</h1>
+        <div className='area-botao'>
+          <p>
+            Click no botão abaixo para gerar um número aleatóiro:
+          </p>
 
-        <button onClick={gerarNumero}>
-          Gerar Número
-        </button>
+          <button onClick={gerarNumero}>
+            Gerar Número
+          </button>
+        </div>
+        <Link to='/'>Voltar</Link>
       </div>
     </div>
   )

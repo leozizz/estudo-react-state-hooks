@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import './style.css'
 
 export default function GeradorDeTextos() {
 
@@ -9,19 +11,22 @@ export default function GeradorDeTextos() {
     }
 
     return (
-        <div className="conteudo-centralizado">
-            <div className="area-texto">
-                <h2>{novoTexto}</h2>
-            </div>
+        <div className="display">
+            <div className="conteudo-centralizado">
+                <div className="area-texto">
+                    <h2>{novoTexto}</h2>
+                </div>
 
-            <div className="area-botao">
-                <label>
-                    Click no botão abaixo para aparecer um texto:
-                </label>
+                <div className="area-botao">
+                    <p>
+                        Click no botão abaixo para aparecer um texto:
+                    </p>
 
-                <button onClick={alterarTexto}>
-                    Gerar texto
-                </button>
+                    <button onClick={alterarTexto}>
+                        Gerar texto
+                    </button>
+                </div>
+                <Link to='/'>Voltar</Link>
             </div>
         </div>
     )
