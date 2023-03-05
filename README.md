@@ -16,14 +16,15 @@ Essa página apresenta um botão que, ao ser clicado, exibe o texto "Hello World
 
 Essa página apresenta um quadrado na tela que pode ser alterado de vermelho para azul e vice-versa ao clicar no botão. A funcionalidade é implementada utilizando o useState, uma condicional ternária em JavaScript e o onClick no botão.
 
-Executando a Aplicação
+## Executando a Aplicação
+
 Para executar a aplicação, é necessário ter o Node.js instalado em sua máquina. Em seguida, siga os passos abaixo:
 
 Baixe ou clone este repositório em sua máquina.
 1. Abra o terminal na pasta do projeto.
-2. Execute o comando ***npm install*** para instalar as dependências do projeto.
-3. Execute o comando ***npm start*** para iniciar a aplicação.
-4. Acesse a aplicação no navegador através do endereço ***http://localhost:3000***.
+2. Execute o comando ***`npm install`*** para instalar as dependências do projeto.
+3. Execute o comando ***`npm start`*** para iniciar a aplicação.
+4. Acesse a aplicação no navegador através do endereço ***`http://localhost:3000`***.
 
 ## Conclusão
 
