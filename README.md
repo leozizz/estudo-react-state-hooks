@@ -7,14 +7,17 @@ Esta é uma Single Page Application (SPA) criada para estudar as funcionalidades
 ### Gerador de Números Aleatórios
 
 Essa página apresenta um botão que, ao ser clicado, gera um número aleatório de 1 a 100. O número gerado é exibido na tela. A funcionalidade é implementada utilizando o useState em conjunto com as funções ***`Math.floor`*** e ***`Math.random`***.
+![Gerador de Números](./public/assets/readme/GeraNum.gif)
 
 ### Gerador de Texto
 
 Essa página apresenta um botão que, ao ser clicado, exibe o texto "Hello World" na tela. A funcionalidade é implementada utilizando o useState.
+![Gerador de Textos](./public/assets/readme/GeraText.gif)
 
 ### Alterador de Cor
 
 Essa página apresenta um quadrado na tela que pode ser alterado de vermelho para azul e vice-versa ao clicar no botão. A funcionalidade é implementada utilizando o useState, uma condicional ternária em JavaScript e o onClick no botão.
+![Alterador de Cor](./public/assets/readme/AlteraCor.gif)
 
 ## Executando a Aplicação
 
